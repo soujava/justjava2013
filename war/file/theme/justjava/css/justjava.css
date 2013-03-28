@@ -1,0 +1,729 @@
+/* ----------------------------------------------
+	Template Name : JustJava
+	Version : 1.1  
+	Author : Thomas R Modeneis
+    Author URI :  
+	Last Date Modified :  
+ ------------------------------------------------ */
+ 
+/* ----------------------------------------------
+   HTML ELEMENTS
+------------------------------------------------- */ 
+
+/* Top Elements */
+* { margin: 0; padding: 0; outline: 0 }
+
+
+body {
+	font: 11px/165% "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0; padding: 0 0 50px 0; 
+	background: #fff;
+	color: #010000; 
+	text-align: center;
+    /*background: url(P1220121.jpg) no-repeat top center #010000;
+    background-attachment:fixed;*/
+}
+
+
+
+/* Links */
+a, a:active, a:link {
+	text-decoration: none;
+	color: #0B9AC7;		
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	background: #F1F9DA; 
+	color: #895F30;
+	border-bottom: 1px dotted #895F30;
+}
+
+/* headers */
+h1, h2, h3 {
+	font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #555;
+}
+h1 {
+	font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 350%;	
+	font-weight: normal;
+	letter-spacing: -2px;
+	padding: 15px 10px 5px 10px;
+	margin: 0;
+}
+h2 {
+	font-size: 200%;
+	color: #895F30;
+	padding: 20px 10px 5px 10px;
+	margin: 0;
+}
+h3 {
+	font-size: 170%;	
+	font-weight: normal;
+	padding: 20px 10px 5px 10px;
+	margin: 0;	
+}
+
+p, dl { padding: 10px; margin: 0; }
+
+ul, ol {
+	margin: 10px 20px;
+	padding: 0 20px;
+}
+ul { list-style: none; }
+
+dt {
+  font-weight: bold;
+  color: #895F30;
+}
+dd {
+  padding-left: 25px; 
+}
+
+/* images */
+img {
+	background: #fafafa;
+    border: 8px solid #dcdcdc;
+	padding: 8px;
+}
+img.float-right {
+  	margin: 5px 0px 10px 10px;  
+}
+img.float-left {
+  	margin: 5px 10px 10px 0px;
+}
+
+code {
+  	margin: 5px 0;
+  	padding: 15px;
+  	text-align: left;
+  	display: block;
+  	overflow: auto;  
+  	font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace ;
+  	/* white-space: pre; */
+  	border: 1px solid #ECF8FE;
+	background: #ECF8FE;  
+}
+acronym {
+  cursor: help;
+  border-bottom: 1px dotted #895F30;
+}
+blockquote {
+	margin: 15px 10px;
+ 	padding: 10px 10px 10px 35px;  
+   border: 1px solid #ECF8FE;
+	background: #ECF8FE url(quote.jpg) no-repeat 10px 10px;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	color: #976957;	
+}
+
+/* start - table */
+table {
+	border-collapse: collapse;
+	margin: 15px 10px;	
+}
+th {
+	/*background: #ADD8E6 url(header-bg.jpg) repeat-x 0 -100px;*/
+	background: #9b95c9;
+	height: 38px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	text-align: left;
+	border-left: 1px solid #78C7FA;
+	border-bottom: solid 2px #fff;
+}
+tr {
+	height: 34px;
+	background: #fff;
+}
+td {
+	padding-left: 11px;
+	padding-right: 11px;
+	border: 1px solid #EDEDED;	
+}	
+/* end - table */
+
+/* form elements */
+form {
+	margin: 15px 10px; padding: 5px 10px 20px 10px;
+	border: 1px solid #f1f1f1; 
+	background: #fdfdfd; 	
+}
+label {
+	display: block;
+	font-weight: bold;
+	margin: 8px 0 5px 0;
+	color: #895F30;
+}
+input, select {
+	padding: 4px;
+	font: normal 1em Verdana, sans-serif;
+	color: #666666;
+	background: #fff;  	
+}
+textarea {
+	width: 400px;
+	padding: 4px;
+	font: normal 1em Verdana, sans-serif;
+	height: 100px;
+	display: block;
+	color: #666666;
+}
+input, textarea, select {
+	background: #fff;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: #D4D4D4 #ebebeb #ebebeb #d4d4d4; 
+}
+
+input.button { 
+	font: bold 12px Arial, Sans-serif; 
+	height: 30px;
+	margin: 0;
+	padding: 2px 3px; 
+	color: #555;
+	background: #E6E6E6;
+	
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #ebebeb #d4d4d4 #d4d4d4 #ebebeb;
+}
+
+/* search form */
+.searchform {
+	background-color: transparent;
+	border: none;	
+	margin: 0; padding: 12px 0 15px 8px;	
+	width: 250px;	
+}
+.searchform p { margin: 0; padding: 0 0 10px 0; }
+.searchform input.textbox { 
+	width: 170px;
+	color: #777; 
+	height: 18px;
+	padding: 2px;	
+	vertical-align: top;
+}
+.searchform input.button { 
+	width: 60px;
+	height: 24px;
+	padding: 2px 5px;
+	vertical-align: top;
+}
+
+/*------------------------------------------
+   LAYOUT
+-------------------------------------------*/ 
+#wrap-out {
+	position: relative;
+	/* background: #fff url(https://lh5.googleusercontent.com/-10AG4FpkhOo/T7LSZJkKl7I/AAAAAAAAAQk/thE3rx-zp44/s912/topo-11_.PNG)  no-repeat ; */
+    background: #fff url(http://www.dfdx.com.br/justjava/topo-sugestao-12.png)  no-repeat ;
+	width: 900px;	
+	margin: 0 auto;
+	text-align: left;
+    top: 10px;
+}
+#wrap {
+	background: url() no-repeat right top;
+	width: 900px;	
+	margin: 0 auto;	
+}
+#content-wrap {
+	position: relative;
+	clear: both;
+	float: left;	
+	width: 890px;	
+	padding: 0; 		
+	margin-left: 5px;	
+	background: transparent;
+	display: inline;	
+    top: 40px;
+}
+#header {
+	position: relative;
+	width: 900px;	
+	height: 325px;	
+	padding: 0;	
+	margin: 0 auto;
+	background: transparent;
+}
+
+/*  Navigation  */
+#nav {
+	position: absolute;
+	clear: both;	
+	margin: 0; padding: 0;		
+	height: 35px;
+	left: 0;	
+    top: 180px;	
+	z-index: 99999;
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	width: 900px;		
+	height: 35px;
+	/* text-transform: uppercase; */
+	margin: 0;	padding: 0;	
+	display: inline;
+}
+#nav ul li {
+	display: inline;
+	margin: 0; padding: 0;
+}
+#nav ul li a {
+	float: left;
+	margin: 0;	padding: 0 10px;
+	font: bold 15px/35px "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	/* text-transform: uppercase; */
+	text-decoration: none;	
+	letter-spacing: -0.3px;
+	color: #694f42;
+}
+
+#nav ul li a:hover, 
+#nav ul li a:active {
+	color: #111;
+	background: none;
+	color: #0da7d2;	
+}
+
+#nav ul li.current a {	
+	color: #0da7d2;	
+}
+
+#nav .language {
+    float: right;
+    width: 60px;
+}
+
+#nav  .language  a img {
+	background: none;
+    border: 0px;
+    margin:0px;
+    padding:3px 3px 0 0;
+}
+
+
+#header h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 72px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -1.5px;
+	color: #fff;
+	text-transform: none;
+	text-decoration: none;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 95px; left: 30px;	
+}
+#header h1#logo-text a:hover {
+	background: none;	border: none;
+}
+#header p#intro {
+	position: absolute;
+	margin: 0; padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.6em;
+	font-style: italic;
+	text-transform: none;
+	color: #755643;
+	width: 400px;
+	
+	/* change the values of top and left to adjust the position */
+	top: 185px; left: 30px;		
+}
+
+#rss {
+  	position: absolute;
+      top: 185px; 		
+}
+
+
+/* Main Column */
+#main {
+	float: left;
+	width: 635px;
+	padding: 0; margin: 0;
+	display: inline;
+    text-align: justify;
+}
+#main h2 {
+    /*
+	padding-bottom: 3px;
+	margin-top: 15px;
+	font: normal 3.5em "Trebuchet MS", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #895F30; 
+	letter-spacing: -2px;	
+	text-transform: none;
+	border-bottom: 1px solid #ebebeb;	
+    */
+	padding-bottom: 3px;
+	margin-top: 15px;
+	font: normal 2em "Trebuchet MS", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #895F30; 
+	letter-spacing: -2px;	
+	text-transform: none;
+	border-bottom: 1px solid #ebebeb;	
+}
+#main h2 a {
+	color: #895F30;
+	text-decoration: none;	
+	background: none; border: none;
+}
+#main ul li {
+	list-style-image: url(bullet.gif);
+}
+
+.widgettitle { 
+   background-image: url(https://lh4.googleusercontent.com/-oLB5XSWpTmQ/T1-fK9RJeAI/AAAAAAAAADg/1l-qIgZsAKA/s312/Barrapequena.png); 
+   color: #FFF; 
+   min-width: 200px; 
+   font-size: 12px;	
+}
+
+
+
+
+
+/* Sidebar */	
+#sidebar {
+	float: right;
+	width: 235px;
+	padding: 0; 
+    margin-top: 10px;		
+	display: inline;	
+}	
+#sidebar h3 {
+	margin-top: 30px;
+	padding: 0px 0px 0px 5px; 
+	font: normal 1.7em 'trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;	
+	color: #FFF;	
+	letter-spacing: -.5px;
+  
+}
+#sidebar ul.sidemenu {
+	text-align: top;
+	margin: 7px 5px 8px 0px; padding: 0;
+	text-decoration: none;		
+	background: url(dots.gif) repeat-x left top;
+}
+#sidebar ul.sidemenu li {
+	list-style: none;
+	background: url(dots.gif) repeat-x left bottom;
+	padding: 8px 10px;
+	margin: 0;		
+}
+* html body #sidebar ul.sidemenu li {
+	height: 1%;
+}
+#sidebar ul.sidemenu li a {
+	text-decoration: none;	
+	background-image: none;	
+	background-color: transparent;
+	border: none;
+	color: #0C9BC2; 	
+		
+	font-weight: bold;		
+	font-family: "Trebuchet MS", Tahoma, Helvetica, Arial, Sans-serif;
+	font-size: 14px;	
+	/* letter-spacing: .5px;  */
+}
+#sidebar ul.sidemenu li a span {
+	color: #989898;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;	
+	font-size: .8em;
+}
+#sidebar ul.sidemenu li a:hover {	
+	color: #555;	
+}
+#sidebar ul.sidemenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.sidemenu ul li { background: none; }
+
+/* footer */
+#footer-wrap {
+	position: relative;
+	clear: both;
+	padding: 1em 0 2.5em 0;
+	margin-top: 50px;
+    /* font: normal 1em 'Trebuchet MS', Tahoma, sans-serif;	*/
+    /* background: #ECF8FE; */
+    background: #dddbe9;
+	color: #777;
+	width: 900px;
+	float: left;		
+}
+#footer-wrap h3 {
+	font: normal 1.8em/1.6em 'Trebuchet MS', Tahoma, sans-serif;
+	text-transform: none;
+	letter-spacing: 0;
+	margin-left: 0;	
+	color: #666666;	
+}
+#footer-content {	
+	margin: 0 auto;		
+	width: 880px;
+    height:400px;
+	text-align: left;	
+}
+#footer-content ul.col-list {
+	background: url(dots.gif) repeat-x left top;
+	list-style: none;
+	margin: 5px 0 0 5px; padding: 0;	
+	width: 98%;
+}
+#footer-content ul.col-list li {
+	background: url(dots.gif) repeat-x left bottom;
+}
+#footer-content ul.col-list li a {
+	display: block;
+	line-height: 1.5em;
+	font-weight: bold;
+	padding: 7px 0 7px 8px;
+	width: 98%;	
+	color: #777;
+	border: none;
+}
+#footer-content ul.col-list li a:hover {
+	color: #333;
+	text-decoration: none;
+}
+#footer-content ul.col-list li a span {
+	color: #989898;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#footer-content .col {
+	width: 280px;
+	padding: 0 0 30px 0;			
+	display: inline;
+}
+#footer-content .space-sep {
+	margin-right: 12px;
+}
+#footer-content .col2 {
+	width: 285px;
+	padding: 0 0 30px 0;	
+	display: inline;	
+}
+
+
+#footer-content .realizacao {
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+#footer-content .co-realizacao {
+  position:absolute;
+  top: 0;
+  left: 360; 
+}
+#footer-content .promocao {
+  position:absolute;
+  top: 0;
+  right: 0; 
+}
+#footer-content .patrocinadores {
+  position:absolute;
+  top: 140;
+  left: 0; 
+}
+#footer-content .apoio {
+    position:absolute;
+  top: 270;
+  left: 0; 
+}
+#footer-content .expositores {
+    position:absolute;
+  top: 270;
+  right: 0; 
+}
+
+
+/* postmeta */
+.postmeta {	
+	padding: 8px 5px; margin: 20px 10px 15px 10px;
+	font-size: 1em;	
+	color: #777;
+	border: 1px solid #ECF8FE;
+	background: #ECF8FE;
+}
+.postmeta .date{ margin: 0 10px 0 5px;	}
+.postmeta a.comments { margin: 0 10px 0 5px;	}
+.postmeta a.readmore { margin: 0 10px 0 5px;	}
+
+.post-info { font-size: .95em; padding-top: 3px; margin-left: 5px; color: #bababa;	}
+.post-info a { color: #C5935C; }
+
+/* thumbnails */
+p.thumbs{ padding: 12px 0 0 10px; }
+
+.thumbs img { 
+	position: relative;
+	border: 1px solid #ebebeb;
+	background: none;
+	padding: 7px;
+	margin: 5px;
+	/* margin: 4px 7px 4px 4px; */	
+}
+.thumbs img:hover	{
+	border: 1px solid #c5c5c5; 
+	background: none;	
+}
+.thumbs a:hover { background-color: transparent; border: none }
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* display and additional classes */
+.clearer { clear: both; }
+
+
+#s3slider { 
+   width: 900px; /* important to be same as image width */ 
+   height: 175px; /* important to be same as image height */
+   position: relative; /* important */
+   overflow: hidden; /* important */
+   top:190px;
+}
+
+#s3sliderContent {
+   width: 900px; /* important to be same as image width or wider */
+   position: absolute; /* important */
+   top: 0; /* important */
+   margin-left: 0; /* important */
+   padding-left: 10px;
+}
+
+.s3sliderImage {
+   float: left; /* important */
+   position: relative; /* important */
+   display: none; /* important */
+   text-decoration: none;
+}
+
+.s3sliderImage img {
+	background: none;
+    border: 0px;
+	padding: 0px;
+}
+
+
+.s3sliderImage span {
+   position: absolute; /* important */
+   left: 0;
+   font: 10px/15px Arial, Helvetica, sans-serif;
+   padding: 10px 13px;
+   width: 374px;
+   background-color: #000;
+   filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+   -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+   -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+   opacity: 0.7; /* here you can set the opacity of box with text */
+   color: #fff;
+   display: none; /* important */
+   top: 0;
+
+   /*
+       if you put
+       top: 0; -> the box with text will be shown at the top of the image 
+       if you put
+       bottom: 0; -> the box with text will be shown at the bottom of the image
+   */
+}
+
+.clear {
+   clear: both;
+}
+
+
+
+
+/* added by Adalberto Zanata - 03/apr/2012 */
+
+/* INI - PALESTRANTES */  
+.speaker {
+    width: 630px;
+    float:left;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.speaker .thumb {
+    width: 120px;
+    float:left; 
+    text-align:center;
+    margin-right:10px;
+}
+  
+.speaker .thumb img {
+    max-width: 100px;
+    /* http://www.noupe.com/css/7-css-hacks-you-cannt-live-without.html */
+    /* width:expression(document.body.clientWidth >= 100? "100px" : "auto"); */
+    vertical-align: top; 
+    float:left;
+    width:auto !important; 
+    width:100px; 
+    margin-top: 5px;    
+    
+}
+
+.speaker h3 {
+    width:480px;
+    float:left;
+	font-size: 170%;	
+	font-weight: normal;
+	padding: 5px 0 5px 0;
+	margin: 0;	
+}
+
+.speaker p {
+    float:left;  
+    width:493px;
+    margin:0px;  
+    padding: 0px;
+    text-align: justify;
+}
+
+.talk {
+    width: 620px;
+    float:left;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    text-align: right;
+}
+
+.talk  h3{
+    width: 615px;
+    float:left;
+	font-size: 170%;	
+	font-weight: normal;
+	padding: 0 0 5px 0;
+	margin: 0 5px 0 0;	
+    text-align: right;
+    overflow: auto;
+}
+
+.talk p {
+    float:left;  
+    text-align: justify;
+    margin: 0 5px 0 0;	  
+    padding: 0px;
+}
+/* // FIM - PALESTRANTES */  
