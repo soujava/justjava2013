@@ -225,11 +225,10 @@ input.button {
 #wrap-out {
 	position: relative;
 	/* background: #fff url(https://lh5.googleusercontent.com/-10AG4FpkhOo/T7LSZJkKl7I/AAAAAAAAAQk/thE3rx-zp44/s912/topo-11_.PNG)  no-repeat ; */
-    background: #fff url(http://www.dfdx.com.br/justjava/topo-sugestao-12.png)  no-repeat ;
-	width: 900px;	
+    width: 900px;	
 	margin: 0 auto;
 	text-align: left;
-    top: 10px;
+    top: -90px;
 }
 #wrap {
 	background: url() no-repeat right top;
@@ -406,7 +405,7 @@ input.button {
 }	
 #sidebar h3 {
 	margin-top: 30px;
-	padding: 0px 0px 0px 5px; 
+	padding: 0px 0px 0px 10px; 
 	font: normal 1.7em 'trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;	
 	color: #FFF;	
 	letter-spacing: -.5px;
@@ -414,14 +413,14 @@ input.button {
 }
 #sidebar ul.sidemenu {
 	text-align: top;
-	margin: 7px 5px 8px 0px; padding: 0;
+	margin: 0px 0px 0px 0px; padding: 0;
 	text-decoration: none;		
 	background: url(dots.gif) repeat-x left top;
 }
 #sidebar ul.sidemenu li {
 	list-style: none;
 	background: url(dots.gif) repeat-x left bottom;
-	padding: 8px 10px;
+	padding: 0px 10px;
 	margin: 0;		
 }
 * html body #sidebar ul.sidemenu li {

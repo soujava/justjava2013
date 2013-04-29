@@ -35,6 +35,7 @@
 
 	<h3 class="widgettitle">Sponsors</h3>
 	<ul class="sidemenu">
+		<!-- 
 		<li><a href="http://www.oracle.com/"
 			title="Hardware and Software, Engineered to Work Together - ORACLE"
 			target="_blank"> <img width="140" height="35"
@@ -70,7 +71,7 @@
 			target="_blank"> <img width="140" height="50"
 				src="https://lh6.googleusercontent.com/-EKIvTL5xkDs/T5lOyE-UhEI/AAAAAAAAAKQ/Hig1AuT-8RQ/s161/logo_4linux.jpg">
 				<br> <span></span></a></li>
-
+ -->
 	</ul>
 
 
@@ -78,6 +79,7 @@
 
 	<h3 class="widgettitle">Supporting</h3>
 	<ul class="sidemenu">
+	<!-- 
 		<li><a href="http://www.sebraesp.com.br/"
 			title="Sebrae - Serviço de Apoio às Micro e Pequenas Empresas de São Paulo"
 			target="_blank"> <img width="180" height="50"
@@ -100,7 +102,7 @@
 				src="/file/page/include/sidebar/logoTC180x60.png"> <span></span></a>
 		</li>
 
-
+ -->
 	</ul>
 
 
@@ -124,6 +126,7 @@
 
 	<h3 class="widgettitle">Links</h3>
 	<ul class="sidemenu">
+	<!-- 
 		<li><a href="http://www.ibm.com/" target="_blank">IBM</a>
 			International Business Machines</li>
 		<li><a href="http://www.oracle.com/" target="_blank">ORACLE </a>Hardware
@@ -150,6 +153,7 @@
 			title="Telefones Celulares, Dual Chip e Smartphones - Nokia - Nokia.com"
 			target="_blank"><strong>NOKIA</strong></a> Telefones Celulares, Dual
 			Chip e Smartphones</li>
+			 -->
 	</ul>
 
 	<h3>Wise Words</h3>

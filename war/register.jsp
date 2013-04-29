@@ -6,7 +6,6 @@
 
 
 <c:import url="/layout.jsp">
-
 	<c:param name="title" value="Index" />
 	<c:param name="about" value="true" />
 

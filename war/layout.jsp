@@ -102,7 +102,7 @@
 
 		<!-- footer starts here -->
 		<div id="footer-wrap">
-			<div id="footer-content">
+<%-- 			<div id="footer-content">
 
 				<c:import url="/realizacao.jsp" />
 				<c:import url="/corealizacao.jsp" />
@@ -117,7 +117,7 @@
 			  <img width="100" height="60" src="https://lh4.googleusercontent.com/-Mtbg2EzrzzU/T6mwskSUl4I/AAAAAAAAAOE/XAc8Yb-oQuQ/s161/global_code.jpg"></a>
 </div>
 -->
-			</div>
+			</div> --%>
 		</div>
 		<div class="clearer"></div>
 		<!-- footer ends here -->

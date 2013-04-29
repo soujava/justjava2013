@@ -9,7 +9,7 @@ import org.slim3.controller.Navigation;
  * @author thomasmodeneis
  *
  */
-public class LanguageController extends Controller {
+public class LocaleController extends Controller {
 
 
     @Override
